@@ -67,10 +67,8 @@ def iothub_devicemethod_sample_run(start_time):
         else:
             board.digital[13].write(0)
 
-        travel_time = time.time() - start_time
-        if (not far_enough(travel_time)):
-            module_method = CloudToDeviceMethod(method_name='motor_activate', payload=None, response_timeout_in_seconds=30)
-            response = registry_manager.invoke_device_module_method(DEVICE_ID, 'VisionExecuteModule', module_method)
+        module_method = CloudToDeviceMethod(method_name='motor_activate', payload=None, response_timeout_in_seconds=30)
+        response = registry_manager.invoke_device_module_method(DEVICE_ID, 'VisionExecuteModule', module_method)
         print ( "Response payload          : {0}".format(response.payload) )
         print ( "" )
         print ( "Device Method called" )
@@ -79,7 +77,8 @@ def iothub_devicemethod_sample_run(start_time):
         print ( "Response status          : {0}".format(response.status) )
 
         print(response.payload['motorActivate'])
-        if response.payload['motorActivate']:
+        travel_time = time.time() - start_time
+        if (not far_enough(travel_time) and response.payload['motorActivate']):
             ang = 0 
             for _ in range(5):
                 pin9.write(ang)
