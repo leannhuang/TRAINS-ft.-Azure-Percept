@@ -7,9 +7,9 @@ Use this information to connect your motor and valve system
 
 ## Components
 1. CO2 Valve
-[co2_valve](docs/images/co2_valve.png)
+[co2_valve](./docs/images/co2_valve.png)
 2. Pressurized Tank
-[pressurized_tank](docs/images/pressurized_tank.png)
+[pressurized_tank](./docs/images/pressurized_tank.png)
 
 
 ### Set up for motor and airbag
