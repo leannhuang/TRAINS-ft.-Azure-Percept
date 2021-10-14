@@ -12,14 +12,15 @@ Return Hometown Safely
 
 
 ## Motivation
-On 2 April 2021, at 09:28 NST (01:28 UTC), a Taroko Express train operated by the Taiwan Railways Administration (TRA) derailed at the north entrance of Qingshui Tunnel in Heren Section, Xiulin Township, Hualien County, Taiwan, killing 49 people and injuring at least 200 others. At the time of the accident, the train was carrying 494 passengers. The eight-carriage train derailed after colliding with a construction truck that had fallen down a slope onto the tracks north of Hualien City, and came to rest in the tunnel, with severe damage and many casualties.
+On 2 April 2021, a Taroko Express train derailed at the north entrance of Qingshui Tunnel in Taiwan, killing 49 people and injuring at least 200 others. These people wanted home to visit relatives because of the Spring Festival holiday, but they and their family could not reunite forever. And this was the second major and serious derailment accident in Taiwan over the last two years. We are eager to address this problem to save more lives. 
 
-The topics toward rail safety issue has been widely discussed after the 2021 Hualien train derailment accident. We hope we can leverage Azure Percept to build a rail risk warning and protection system​ to improve the rail safety issue and save more life.
+We have found that such tragedies continue to occur all over the world, and train derailment occurs more frequently than we thought. There have been over 500 train accidents with fatalities and injuries over the past decades. Recently, there was a train derailment that killed 3, injured over 50 in Washington State on 2021/9/27. From 2010 to 2021 decade, there were 2429 deaths, 12,355 injuries caused by railway derailments. We provide solutions to protect train passengers.
 
 ![Scenario](docs/images/scenario.png)
 
 ## Impact
 There are many injuries and deaths caused by derailment resulting in the anomaly object in the rail can be completely prevented through the anomaly detection by Azure Percept Devkit and drone. And through the motor-activated airbag device, the collision force level can be reduced to 70%, and send the information and notification in a timely manner. 
+
 We hope that all passengers can take the train at ease, arrive at the destination on schedule, and reunite with their family and friends. If you agree with our idea and project, please “like” our project to make this topic more widely cared and discussed, and the relevant organizations can take the actions to protect the safety of you, me and the passengers.
 
 
