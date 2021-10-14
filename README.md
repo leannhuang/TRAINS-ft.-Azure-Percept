@@ -23,6 +23,19 @@ There are many injuries and deaths caused by derailment resulting in the anomaly
 
 We hope that all passengers can take the train at ease, arrive at the destination on schedule, and reunite with their family and friends. If you agree with our idea and project, please “like” our project to make this topic more widely cared and discussed, and the relevant organizations can take the actions to protect the safety of you, me and the passengers.
 
+## HOW IT WORK
+We provide solutions to protect train passengers from two aspects 
+
+1. Proactive precaution
+
+This sub-system provides proactive precaution so that the anomaly can be eliminated as early as possible. We set up Azure Percept Devkit above the tunnel entrance (the number of deaths and injuries is particularly serious if derailment happens in a tunnel hitting the tunnel wall), and perform Anomaly Detection through Azure Percept Vision. If an anomaly object is detected, Azure Percept Devkit will send a signal to activate the warning light to notify the conductor to brake. For the location out of the stationary Azure Percept Devkit detected range, we use drones along the rails to detect anomaly objects and do the actions accordingly. 
+ 
+2. Proactive Protection
+
+This sub-system provides proactive protection and follow-up remedies if there is not enough time to stop a collision. If the distance between the train and the anomaly object is not long enough for the train to make a fully stop, the system will not only notify the conductor to brake, but also automatically control the motor inflates the airbag in order to alleviate the collision force to the train and passenger. Meanwhile, the system will report directly to 911 iIf Azure Percept Audio detects anomalous sounds such as collision, explosion, crying, siren. In addition, the information such as train acceleration, time, path, anomalous sound, and train collision video stream will be sent to the dashboard for the center console through IoT Hub and Azure Video Analyzer for people who monitor the rail to get the latest information of the accident and provide the best support.  
+
+![Airbag Trigger](docs/images/airbag-trigger.png)
+
 
 ## Solution Architecture
 ![Solution Architecture](docs/images/solution-arch.png)
