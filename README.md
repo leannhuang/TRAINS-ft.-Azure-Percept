@@ -23,7 +23,7 @@ There are many injuries and deaths caused by derailment resulting in the anomaly
 
 We hope that all passengers can take the train at ease, arrive at the destination on schedule, and reunite with their family and friends. If you agree with our idea and project, please “like” our project to make this topic more widely cared and discussed, and the relevant organizations can take the actions to protect the safety of you, me and the passengers.
 
-## HOW IT WORK
+## HOW IT WORKS
 We provide solutions to protect train passengers from two aspects 
 
 ### Proactive precaution
