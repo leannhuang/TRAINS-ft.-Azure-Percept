@@ -21,7 +21,7 @@ from azure.iot.device import Message
 from time import sleep
 
 
-CONNECTION_STRING = "HostName=rg-leann-361dhub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=cCNnva4+Glpbx3ViGHRXCbei9wbf524ymUSAm9q1aDE="
+CONNECTION_STRING = "connection string"
 DEVICE_ID = "rail"
 board = Arduino('/dev/cu.usbmodem301')
 pin9 = board.get_pin('d:9:s')
